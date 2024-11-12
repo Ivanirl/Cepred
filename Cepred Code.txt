@@ -1,0 +1,13 @@
+
+
+
+
+<ul class="image-gallery">
+    <li>
+        <img data-src="path/to/image1.jpg" alt="Image 1" class="lazy">
+    </li>
+    <li>
+        <img data-src="path/to/image2.jpg" alt="Image 2" class="lazy">
+    </li>
+    <!-- Add more images as needed -->
+</ul>
