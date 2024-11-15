@@ -114,6 +114,7 @@ body .main .floater .wrap {
 }
 body .main .floater .wrap div {
   width: 20em;
+  display: block;
   text-align: center;
 }
 body .main .floater .wrap div h1 {
