@@ -13,23 +13,23 @@ button {
   padding: 1em;
   font-weight: 900;
   border-radius: 1em;
-  border: solid black;
+  border: solid rgb(43, 43, 43);
   transition: ease-in-out 0.2s;
   cursor: pointer;
 }
 button:hover {
-  background-color: black;
+  background-color: rgb(43, 43, 43);
   color: white;
 }
 button:active {
   background-color: white;
-  color: black;
+  color: rgb(43, 43, 43);
   border: solid white;
 }
 
 body {
-  background-color: rgb(236, 236, 236);
-  color: black;
+  background-color: #F8FFFF;
+  color: rgb(43, 43, 43);
   font-family: nutty;
 }
 body nav {
@@ -95,11 +95,40 @@ body .main .section .textbox span {
   cursor: pointer;
   margin-bottom: 1.7em;
 }
+body .main .floater {
+  padding: 2em 3em;
+  text-align: center;
+  border-radius: 1em;
+  display: flex;
+  justify-content: center;
+}
+body .main .floater .wrap {
+  background: rgb(43, 43, 43);
+  color: white;
+  border-radius: 1em;
+  padding: 5em;
+  padding-top: 4em;
+  box-shadow: 2px 2px 4px #000;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+body .main .floater .wrap div {
+  width: 20em;
+  text-align: center;
+}
+body .main .floater .wrap div h1 {
+  font-size: 3em;
+  margin-bottom: 1.2em;
+}
+body .main .floater .wrap div span {
+  line-height: 2em;
+}
 body .footer {
-  background: black;
+  background: rgb(43, 43, 43);
   color: white;
   padding: 2em;
   margin-top: 3em;
+  border-radius: 1em;
 }
 body .footer .container {
   padding: 3em 3.5em;
