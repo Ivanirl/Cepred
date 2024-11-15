@@ -142,6 +142,14 @@ body {
                     span{
                         line-height: 2em;
                     }
+
+                    img{
+                        width: 3em;
+                        height: 3em;
+                        border-radius: 50%;
+                        display: block;
+                        justify-content: center;
+                    }
                 }
             }
         }
@@ -318,6 +326,30 @@ body {
                         font-weight: 200;
                         cursor: pointer;
                         margin-bottom: 1.7em;
+                    }
+                }
+            }
+
+            .floater{
+                padding: 2em 3em;
+                border-radius: 1em;
+    
+                .wrap{
+                    border-radius: 1em;
+                    padding: 4em;
+                    padding-top: 4em;
+                    
+                    div{
+                        width: 18em;
+    
+                        h1{
+                            font-size: 3em;
+                            margin-bottom: 1.2em;
+                        }
+    
+                        span{
+                            line-height: 2em;
+                        }
                     }
                 }
             }

@@ -123,6 +123,13 @@ body .main .floater .wrap div h1 {
 body .main .floater .wrap div span {
   line-height: 2em;
 }
+body .main .floater .wrap div img {
+  width: 3em;
+  height: 3em;
+  border-radius: 50%;
+  display: block;
+  justify-content: center;
+}
 body .footer {
   background: rgb(43, 43, 43);
   color: white;
@@ -273,6 +280,25 @@ body .footer .container {
     font-weight: 200;
     cursor: pointer;
     margin-bottom: 1.7em;
+  }
+  body .main .floater {
+    padding: 2em 3em;
+    border-radius: 1em;
+  }
+  body .main .floater .wrap {
+    border-radius: 1em;
+    padding: 4em;
+    padding-top: 4em;
+  }
+  body .main .floater .wrap div {
+    width: 18em;
+  }
+  body .main .floater .wrap div h1 {
+    font-size: 3em;
+    margin-bottom: 1.2em;
+  }
+  body .main .floater .wrap div span {
+    line-height: 2em;
   }
   body .footer {
     background: black;
