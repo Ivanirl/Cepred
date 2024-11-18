@@ -114,8 +114,8 @@ body .main .floater .wrap {
 }
 body .main .floater .wrap div {
   width: 20em;
-  display: block;
   text-align: center;
+  align-items: center;
 }
 body .main .floater .wrap div h1 {
   font-size: 3em;
@@ -125,11 +125,11 @@ body .main .floater .wrap div span {
   line-height: 2em;
 }
 body .main .floater .wrap div img {
-  width: 3em;
-  height: 3em;
+  width: 4em;
+  height: 3.9em;
   border-radius: 50%;
   display: block;
-  justify-content: center;
+  margin-top: 2.5em;
 }
 body .footer {
   background: rgb(43, 43, 43);
