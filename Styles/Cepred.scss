@@ -85,6 +85,7 @@ body {
                 width: 58%;
                 border-radius: 2em;
                 transition: ease-in-out 0.2s;
+                box-shadow: 2px 2px 4px #636262;
 
                 &:hover {
                     scale: 1.007;
@@ -133,7 +134,7 @@ body {
                 div{
                     width: 20em;
                     text-align: center;
-                    align-items: center;
+                    justify-content: center;
 
                     h1{
                         font-size: 3em;
@@ -142,14 +143,22 @@ body {
 
                     span{
                         line-height: 2em;
+                        display: block;
                     }
+                    
+                    button{
+                        border: white solid;
+                        color: white;
+                        margin-top: 2.8em;
+
+                    }    
 
                     img{
                         width: 4em;
                         height: 3.9em;
+                        display:none;
                         border-radius: 50%;
-                        display: block;
-                        margin-top: 2.5em;
+                        margin-top: 2.8em;
                     }
                 }
             }
