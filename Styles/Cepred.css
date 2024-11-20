@@ -28,7 +28,7 @@ button:active {
 }
 
 body {
-  background-color: #F8FFFF;
+  background-color: #f8ffff;
   color: rgb(43, 43, 43);
   font-family: nutty;
 }
@@ -96,6 +96,21 @@ body .main .section .textbox span {
   cursor: pointer;
   margin-bottom: 1.7em;
 }
+body .main .rootbeer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 4em 0;
+}
+body .main .rootbeer .rec {
+  width: 100%;
+  height: 4px;
+  border-radius: 1em;
+  background-color: rgb(168, 168, 168);
+}
+body .main .rootbeer img {
+  width: 15em;
+}
 body .main .floater {
   padding: 2em 3em;
   text-align: center;
@@ -142,12 +157,32 @@ body .footer {
   background: rgb(43, 43, 43);
   color: white;
   padding: 2em;
-  margin-top: 3em;
+  margin-top: 5em;
   border-radius: 1em;
 }
 body .footer .container {
   padding: 3em 3.5em;
   text-align: center;
+  display: flex;
+  justify-content: center;
+}
+body .footer span {
+  display: none;
+}
+body .footer .networks {
+  display: flex;
+  gap: 2em;
+  display: flex;
+  justify-content: center;
+}
+body .footer .networks div {
+  display: flex;
+  justify-content: center;
+}
+body .footer .networks div svg {
+  fill: white;
+  width: 3em;
+  height: 3em;
 }
 
 .lazy {
@@ -289,6 +324,9 @@ body .footer .container {
     cursor: pointer;
     margin-bottom: 1.7em;
   }
+  body .main .rootbeer {
+    display: none;
+  }
   body .main .floater {
     padding: 2em 3em;
     border-radius: 1em;
@@ -309,7 +347,7 @@ body .footer .container {
     line-height: 2em;
   }
   body .footer {
-    background: black;
+    background: rgb(43, 43, 43);
     color: white;
     padding: 2em;
     margin-top: 3em;
