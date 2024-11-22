@@ -175,11 +175,12 @@ body .footer .networks {
   display: flex;
   justify-content: center;
 }
-body .footer .networks div {
+body .footer .networks a {
   display: flex;
   justify-content: center;
+  cursor: pointer;
 }
-body .footer .networks div svg {
+body .footer .networks a svg {
   fill: white;
   width: 3em;
   height: 3em;
@@ -264,7 +265,7 @@ body .footer .networks div svg {
   body nav .prop {
     display: flex;
     justify-content: space-between;
-    padding-left: 2em;
+    padding-left: 1em;
   }
   body nav .prop .pop {
     display: flex;

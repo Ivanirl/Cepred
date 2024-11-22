@@ -203,9 +203,10 @@ body {
       display: flex;
       justify-content: center;
 
-      div {
+      a{
         display: flex;
         justify-content: center;
+        cursor: pointer;
         svg {
           fill: white;
           width: 3em;
@@ -301,7 +302,7 @@ body {
       .prop {
         display: flex;
         justify-content: space-between;
-        padding-left: 2em;
+        padding-left: 1em;
 
         .pop {
           display: flex;
