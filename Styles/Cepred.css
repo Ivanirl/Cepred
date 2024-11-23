@@ -14,6 +14,7 @@ button {
   font-weight: 900;
   border-radius: 1em;
   border: solid rgb(43, 43, 43);
+  color: rgb(43, 43, 43);
   transition: ease-in-out 0.2s;
   cursor: pointer;
 }
